@@ -1,9 +1,6 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Logo from '../../Assets/images/logoname.png'
-import CgInstagram from 'react-icons/fa'
+import { Container, Row, Col } from 'react-bootstrap'
 import './footer.css'
 
 
@@ -34,19 +31,19 @@ const Footer = () => {
                                 <h3 className='footer-widget-tit'>Explore</h3>
                                 <ul className='footer-widget-links'>
                                     <li>
-                                        <a>Home</a>
+                                        <a href='#'>Home</a>
                                     </li>
                                     <li>
-                                        <a>Home</a>
+                                        <a href='#'>Home</a>
                                     </li>
                                     <li>
-                                        <a>Home</a>
+                                        <a href='#'>Home</a>
                                     </li>
                                     <li>
-                                        <a>Home</a>
+                                        <a href='#'>Home</a>
                                     </li>
                                     <li>
-                                        <a>Home</a>
+                                        <a href='#'>Home</a>
                                     </li>
                                 </ul>
                             </div>
@@ -54,19 +51,19 @@ const Footer = () => {
                                 <h3 className='footer-widget-tit'>Serviços</h3>
                                 <ul className='footer-widget-links'>
                                     <li>
-                                        <a>Home</a>
+                                        <a href='#'>Home</a>
                                     </li>
                                     <li>
-                                        <a>Home</a>
+                                        <a href='#'>Home</a>
                                     </li>
                                     <li>
-                                        <a>Home</a>
+                                        <a href='#'>Home</a>
                                     </li>
                                     <li>
-                                        <a>Home</a>
+                                        <a href='#'>Home</a>
                                     </li>
                                     <li>
-                                        <a>Home</a>
+                                        <a href='#'>Home</a>
                                     </li>
                                 </ul>
                             </div>
@@ -74,19 +71,19 @@ const Footer = () => {
                                 <h3 className='footer-widget-tit'>Links</h3>
                                 <ul className='footer-widget-links'>
                                     <li>
-                                        <a>Home</a>
+                                        <a href='#'>Home</a>
                                     </li>
                                     <li>
-                                        <a>Home</a>
+                                        <a href='#'>Home</a>
                                     </li>
                                     <li>
-                                        <a>Home</a>
+                                        <a href='#'>Home</a>
                                     </li>
                                     <li>
-                                        <a>Home</a>
+                                        <a href='#'>Home</a>
                                     </li>
                                     <li>
-                                        <a>Home</a>
+                                        <a href='#'>Home</a>
                                     </li>
                                 </ul>
                             </div>

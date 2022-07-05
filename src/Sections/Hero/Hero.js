@@ -8,6 +8,7 @@ import Slider from '../../Components/Slider/Slider'
 import slider1 from '../../Assets/images/slider-1.png'
 import slider2 from '../../Assets/images/slider-2.png'
 import slider3 from '../../Assets/images/slider-3.png'
+import Slidercripto from '../../Components/Slider/Slidercripto';
 import './hero.css'
 
 const handleDragStart = (e) => e.preventDefault();
@@ -38,9 +39,6 @@ const responsive = {
     0: {
       items: 1,
     },
-    512: {
-        items: 1,
-    }
   };
 
 
@@ -73,7 +71,7 @@ function Hero() {
                 </Col>
             </Row>
             <div className='hero-slider'>
-         
+                <Slidercripto   />
             </div>
         </Container>    
     </section>
