@@ -2,10 +2,9 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Logo from '../../Assets/images/logoname.png'
 import CgInstagram from 'react-icons/fa'
 import './footer.css'
-
+import Logo2 from '../../Assets/images/logo2.png';
 
 const Footer = () => {
   return (
@@ -15,7 +14,7 @@ const Footer = () => {
                     <Row>
                         <Col lg={3}>
                             <div className='footer-widget'>
-                                <img className='footer-widget-logo' src={Logo} alt='logo'/>
+                                <img className='footer-widget-logo' src={Logo2} alt='logo'/>
                                 <p className='footer-widget-contato'>
                                     <a href="tel:999999999">(55) 9999 9999</a>    
                                 </p>
