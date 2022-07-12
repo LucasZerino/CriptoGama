@@ -1,15 +1,14 @@
 import React from 'react'
-import Footer from '../Components/Footer/Footer'
 import Hero from '../Sections/Hero/Hero'
-import NavbarSticky from '../Components/Navbar/Navbar'
-
+import ListaCryptos from '../Sections/Lista/ListaCryptos'
+import Mapa from '../Sections/Mapa/Mapa'
 
 const Home = () => {
   return (
-    <div className='home'>
-        <NavbarSticky/>
+    <div>
         <Hero   />
-        <Footer />
+        <ListaCryptos  />
+        <Mapa />
     </div>
   )
 }
